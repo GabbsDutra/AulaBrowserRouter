@@ -7,5 +7,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 
+return(
+<div>
+  <p>olar</p>
+</div>
+
+)
 
 
