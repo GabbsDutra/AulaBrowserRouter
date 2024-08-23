@@ -5,6 +5,9 @@ import Home from '../componentes/home'
 import Inicio from '../componentes/PaginaInicial'
 import Produtos from '../componentes/produtos'
 import Ofertas from '../componentes/ofertas'
+import './global.css'
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>

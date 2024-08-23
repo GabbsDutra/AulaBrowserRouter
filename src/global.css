@@ -1,0 +1,153 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(30, 30, 29);
+    min-width: 100vh;
+    display:flex;
+    flex-direction: column;
+    background-image:url('https://wallpapercave.com/wp/4F8Jdvd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.produto-nome{
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+.carousel-container{
+    border: 2px red solid;
+}
+
+
+
+.produto-imagem img{
+    width: 100%;
+    height: auto;
+}
+
+.card-container{
+    padding: 20px;
+    background: white;
+    text-align: center;
+    flex-wrap: wrap;
+    border: blue 2px solid;
+}
+
+
+.btao{
+    border: none;
+    background-color: beige;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.figures-Home{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.btao:hover{
+    font-size: 2rem;
+    color: red;
+}
+
+
+
+
+
+.container-Figures-Home{
+    background: red;
+}
+
+
+
+.container-Produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.card{
+    width: 250px;
+
+}
+
+
+
+.containerTudo {
+    text-align: center;
+}
+
+.container-Produtos-Home{
+    text-align: center;
+    display: flex;
+}
+
+
+
+.containerLinks{
+    font-size: large;
+}
+
+
+.paginaInicial{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 5px aqua solid;
+    border-radius: 5px;
+}
+
+
+
+
+h1 {
+    color: #000000;
+}
+
+
+
+
+#Top {
+    margin-top: 50px;
+    width: 500px;
+    height: 100px;
+    text-align: left;
+    color: #fff;
+    background-color: #2f0a4f;
+    border-radius: 25px 25px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PaginaInicial{
+    text-align: center;
+ color: #feffee;
+
+}
+
+.produtos-com-desconto{
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.produtosDisponiveis{
+    text-align: center;
+    color: white;
+}
