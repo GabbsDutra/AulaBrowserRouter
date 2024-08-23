@@ -20,10 +20,10 @@ export default function PaginaInicial() {
         </div>
         
     </div>
-    <Footer/>
-    </>
-    )
-}
+    
+    
+   
+
 
 
 
@@ -35,9 +35,11 @@ export default function PaginaInicial() {
     showStatus={false}  
     showThumbs={false}
     dynamicHeight>
-        <div>
-        <img src="https://images2.alphacoders.com/134/1347155.png" 
-        alt="" />
-        </div>          
-
+            
     </Carousel>
+
+
+
+<Footer/>
+</>
+)}

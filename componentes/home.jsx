@@ -48,7 +48,7 @@ const [figurasHome] = useState([
 <>
 
 <Header/>
-        <h1 className='PaginaInicial'>Pagina Inicial</h1>
+        <h1 className='PaginaInicial'>Home</h1>
         <div className="carousel-container">
 
         <Carousel

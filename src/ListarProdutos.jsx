@@ -12,7 +12,7 @@ export default function ListarProdutos({lista}){
           <img src={produto.imagem}/>
         </div>
         <div className="produto-nome">
-          <h1>{produto.nome}</h1>
+          <h2>{produto.nome}</h2>
         </div>
 
         <div className="produto-Preco">
